@@ -90,3 +90,11 @@ font-size: 2rem;
 .button:active{
   opacity: 200%;
 }
+
+@media only screen and (max-width: 768px) {
+  .itemsBox{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 6rem;
+  }
+}
